@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+
+*{
+    cursor:url("Custom\ Cursor.png"), auto;
+}
+
+/* tabs */
+
+#tabs{
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    font-size: 2vh;
+    }
+
+
+/* Draggable cursors */
+#mov-a{
+    position: absolute;
+    cursor: move;
+}
+
+#mov-b{
+    cursor: move;
+    position: absolute;
+}
+
+/* HOME PAGE */
+.container{
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#CIimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: auto;
+}
+
+.gif{
+    padding: 10px;
+    position: absolute;
+    top: 32%;
+    left: 53.3%;
+    transform: translate(-50%, -50%);
+}
+
+#screen{
+    width: 5em;
+}
+
+#Enter{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start
+}
+
+
+/* INTERACTIVE MEDIA PAGE (2nd) */
+.wrapper{
+    position: absolute;
+    width: 100vw;
+    height: 94vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#IMfolder{
+    width: 5em;
+    height: auto;
+}
+
+.firstTab {
+    display: flex;
+    width: 22.5em;
+    height: auto;
+    border: .1em solid rgba(109, 106, 106, 0.609);
+    background-color: gainsboro;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    padding: .2em;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#FTx{
+    width: .7em;
+    height: .7em;
+}
+
+/* Assignments Page (3rd) */
+
+.secondTab {
+    display: flex;
+    width: 9.5em;
+    height: auto;
+    border: .1em solid rgba(109, 106, 106, 0.609);
+    background-color: gainsboro;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    padding: .2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.assignmentFolders{
+    width: 100vw;
+    height: 94vh;
+    margin: 0 auto;
+    background-color: blue;
+    border: 2px solid springgreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+#assigmentOne{
+    width: 5em;
+    height: auto;
+}
+
+
+
+#assigmentTwo{
+    width: 5em;
+    height: auto;
+}
+
+#assigmentThree{
+    width: 5em;
+    height: auto;
+}
+
+
+/* Assignment One page */
+
+#containerA1{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(172, 172, 172);
+    border: 2px solid blue;
+}
+
+.left-inner{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(200, 200, 200);
+    border-right: 2px solid blue;
+    flex-direction: column;
+}
+
+.right-inner{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(211, 211, 211);
+}
+
+.titleA1{
+    display: flex;
+    width: 100%;
+    height: 12%;
+    background-color: rgb(222, 222, 222);
+    border-bottom: 2px solid blue;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
