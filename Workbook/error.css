@@ -1,0 +1,96 @@
+body{
+    background-image: url(recordingYou.gif);
+    background-size: 90%, 100%;
+}
+
+#watch1{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+}
+
+#watch2{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+#watch3{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+#watch4{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+
+#watch5{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#watch6{
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: white;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink2 {
+    animation: blinker 2s linear infinite;
+    color: white;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink3 {
+    animation: blinker .7s linear infinite;
+    color: white;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#leave{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}

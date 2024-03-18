@@ -1,0 +1,326 @@
+/* Draggable cursors */
+#mov-a{
+    position: absolute;
+    cursor: move;
+}
+
+#mov-b{
+    cursor: move;
+    position: absolute;
+}
+
+#mov-c{
+    cursor: move;
+    position: absolute;
+}
+
+#mov-d{
+    cursor: move;
+    position: absolute;
+}
+
+
+#mov-e{
+    cursor: move;
+    position: absolute;
+}
+
+
+#mov-f{
+    cursor: move;
+    position: absolute;
+}
+
+
+
+
+body{
+    background-color: black;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+
+.sections{
+    width: 40vw;
+    display: flex;
+    border-radius: 50px;
+    justify-content: left ;
+    align-items: center;
+}
+
+
+#currenttab{
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 50px;
+    width: 10em;
+    cursor: pointer;
+    color: black;
+    font-size: .8em;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    padding: .2em;
+}
+#currenttab:hover{
+    color: white;
+}
+#othertabs:hover{
+    color: white;
+}
+
+#othertabs{
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 50px;
+    width: 10em;
+    font-size: .8em;
+    cursor: pointer;
+    color: blue;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    padding: .2em;
+}
+#linksToWeeks{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#weeks{
+    display: flex;
+    height: 90vh;
+    justify-content:center;
+    align-items: center;
+    color: blue;
+}
+
+#info{
+    font-size: 0.6em
+}
+
+#weektabs{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+    border: none;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    font-size: .6em;
+    text-decoration: none;
+}
+
+#blurred{
+    cursor:crosshair;
+    padding: 1em;
+}
+
+
+
+#banner-Inspiration{
+    position: absolute;
+    color: blue;
+    top: 96%;
+}
+
+#mov-a{
+    transform: translate(-50%,-50%);
+    top: 35%;
+    left: 40%;
+}
+
+#kalx{
+    width: 50em;
+    height: 20em;
+    box-shadow: 0 0 2em blue;
+    border: 3px solid blue;
+}
+
+#mov-b{
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 50%;
+}
+
+
+
+#t6{
+    width: 30em;
+    height: 30em;
+    box-shadow: 0 0 2em blue;
+    border: 3px solid blue;
+}
+
+
+
+#hoverstat{
+    width: 30em;
+    height: 20em;
+    box-shadow: 0 0 2em blue;
+    border: 3px solid blue;
+}
+
+
+#mov-c{
+    transform: translate(-50%,-50%);
+    top: 35%;
+    left: 60%;
+}
+
+#mov-d{
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 70%;
+}
+
+#jodi{
+    width: 40em;
+    height: 10em;
+    box-shadow: 0 0 2em blue;
+    border: 3px solid blue;
+}
+
+
+#myLove{
+    width: 20em;
+    box-shadow: 0 0 2em blue;
+    border: 3px solid blue;
+}
+
+#mov-e{
+    transform: translate(-50%,-50%);
+    top: 61%;
+    left: 30%;
+}
+
+#References{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 90%;
+    left: 50%;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+    border: 1px solid blue;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    font-size: .6em;
+    text-decoration: none;
+}
+#References:hover{
+    color: white;
+}
+
+.Referenceslinks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: blue;
+}
+
+#Inspirationsbutton{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 90%;
+    left: 50%;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+    border: 1px solid blue;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    font-size: .6em;
+    text-decoration: none;
+}
+#Inspirationsbutton:hover{
+    color: white;
+}
+
+#development{
+    display: flex;
+    height:92vh ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#showcaseTerminal{
+    border: 1px solid blue;
+    width: 60vw;
+    height: 85vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#terminalScreen{
+    width: 100%;
+    height: 100%;
+}
+
+
+.informationTerminal{
+   
+    border: 1px solid blue;
+    border-radius:0 12px 12px 0;
+    width: 30vw;
+    height: 85vh;
+    overflow: scroll;
+}
+
+#developmentButtons{
+    display: flex;
+    justify-content:center;
+    height: 5%;
+    align-items: center;
+}
+
+
+
+#selectedSection{
+    border-radius: 50px;
+    background-color: transparent;
+    color: black;
+    background-color: blue;
+    cursor: pointer;
+    border: 1px solid blue;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#selectedSection:hover{
+    color: white;
+}
+
+
+#NotSelected{
+    border-radius: 50px;
+    background-color: transparent;
+    color: blue;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid blue;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    text-decoration: none;
+    text-decoration: none;
+}
+#NotSelected:hover{
+    color: white;
+}
+
+#infotext{
+    color: blue;
+    padding: 1em;
+}
+
+#imgScreen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

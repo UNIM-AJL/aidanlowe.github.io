@@ -1,0 +1,292 @@
+
+/* Draggable cursors */
+#mov-a{
+    position: absolute;
+    cursor: move;
+}
+
+#mov-b{
+    cursor: move;
+    position: absolute;
+}
+
+#mov-c{
+    cursor: move;
+    position: absolute;
+}
+
+#mov-d{
+    cursor: move;
+    position: absolute;
+    box-shadow: 0 0 100px purple;
+}
+
+#mov-e{
+    cursor: move;
+    position: absolute;
+}
+
+#mov-f{
+    cursor: move;
+    position: absolute;
+}
+#mov-h{
+    cursor: move;
+    position: absolute;
+}
+#mov-i{
+    cursor: move;
+    position: absolute;
+}
+#mov-j{
+    cursor: move;
+    position: absolute;
+}
+
+/* Assignment One Week Two page */
+body{
+    background: radial-gradient(white, blue);
+    margin: 0;
+    padding: 0;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+
+.fixed-wrapper {
+    width: fit-content;
+    height: fit-content;
+    z-index: 100;
+}
+
+.returnhome{
+    text-align: center;
+    position: absolute;
+    top: 83%;
+    left: 92%;
+    background: radial-gradient(white, lime);
+    color: red;
+    border-radius: 50px;
+    width: 6em;
+    height: 6em;
+    cursor: pointer;
+}
+
+
+#w2heading{
+    font-size: 4em;
+    color: white;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+
+#mov-a{
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    background-image: url(terminal.gif);
+    background-size: 100% 100%; 
+    width: 20vw;
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#weekonebutton{
+    background-color: black; 
+    margin: 0 auto;
+    text-decoration: none; 
+    color: lime;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    cursor: pointer;
+}
+#mov-b{
+    position: absolute;
+    top: 10%;
+    left: 80%
+}
+
+#mov-c{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    background-image: url(earth.gif);
+    background-size: 100% 100%; 
+    width: 12vw;
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#weekThreebutton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#chickenwalk{
+    position: absolute;
+    width: 100%;
+    top: 80%;
+}
+
+#chicken{
+    width: 8em;
+}
+
+.inspiration{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 40vw;
+    height: 30vh;
+    top: 0;
+    left: 40%;
+}
+
+#Iheading{
+    color: yellow;
+    font-size: 2em;
+}
+
+.over{
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+    width: 20vw;
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.pitch{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
+
+#pitchlink{
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+
+#mov-d{
+    box-shadow: 0 0 1em purple;
+    position: absolute;
+    top: 40%;
+    left: -10%;
+}
+
+#mov-e{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+}
+
+#oldMac{
+    width: 15em;
+}
+
+
+#mov-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: radial-gradient(lime, yellow);
+    width: 20em;
+    height: 18em;
+    top: 55%;
+    left: 20%;
+}
+
+#exampleWebsite{
+    width: 15em;
+    height: 15em;
+}
+
+#mov-h{
+    width: 10em;
+    height: 10em;
+}
+
+#andre{
+    width: 10em;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+#exampleWebsitebutton{
+    background: radial-gradient(lightblue, blue);
+    color: darkmagenta;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#mov-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Crazy8s.png);
+    background-size: 100% 100%;
+    width: 16vw;
+    height: 30vh;
+    top: 7%;
+    left: 10%;
+
+}
+
+#ball{
+    width: 12em;
+    cursor: pointer;
+}
+
+
+#loadingBar{
+    width: 15em;
+}
+
+#mov-j{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    color: white;
+}
+
+#loadingBarbutton{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+}
+
+
+.blink {
+    display: flex;
+    animation: blinker 1.5s linear infinite;
+    justify-content: center;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

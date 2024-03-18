@@ -1,0 +1,33 @@
+
+*{
+    color: rgb(0, 255, 30);
+}
+
+
+.OP{
+    height: 7.5em;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.top{
+    display: flex;
+}
+
+button{
+    height: 1.8em;
+    background-color: rgb(0, 255, 30);
+}
+
+#home{
+    width: 1em;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}

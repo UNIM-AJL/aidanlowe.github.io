@@ -32,6 +32,17 @@
     position: absolute;
 }
 
+#mov-c{
+    cursor: move;
+    position: absolute;
+}
+
+#mov-d{
+    cursor: move;
+    position: absolute;
+}
+
+
 /* HOME PAGE */
 .container{
     display: flex;
@@ -65,7 +76,8 @@
 #Enter{
     display: flex;
     justify-content: center;
-    align-items:flex-start
+    align-items:flex-start;
+    cursor: pointer;
 }
 
 
@@ -78,11 +90,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #IMfolder{
     width: 5em;
     height: auto;
+    cursor: move;
+}
+
+#openeye{
+    cursor: move;
 }
 
 .firstTab {
@@ -102,6 +120,50 @@
 #FTx{
     width: .7em;
     height: .7em;
+    cursor: pointer;
+}
+
+#VHSvideo{
+    width: 12em;
+    height: auto;
+    cursor: move;
+}
+
+.sgif{
+    padding: 10px;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    transform: translate(40%, 50%);
+    font-size: .65em;
+    text-align: center;
+    cursor: move;
+}
+
+#foldertype{
+    font-size: .7em;
+    cursor: move;
+}
+
+.VHSvideo{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(50%, 40%);
+}
+
+#cube{
+    width: 8em;
+    cursor: move;
+}
+
+
+.cube{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translate(50%, 90%);
+    cursor: move;
 }
 
 /* Assignments Page (3rd) */
@@ -122,14 +184,16 @@
 
 
 .assignmentFolders{
+    position: absolute;
     width: 100vw;
-    height: 94vh;
+    top: 40%;
+    left: 47%;
+    transform: translate(-50%, -50%);
     margin: 0 auto;
-    background-color: blue;
-    border: 2px solid springgreen;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 
@@ -137,64 +201,376 @@
 #assigmentOne{
     width: 5em;
     height: auto;
+    cursor: move;
 }
-
-
 
 #assigmentTwo{
     width: 5em;
     height: auto;
+    cursor: move;
 }
 
 #assigmentThree{
     width: 5em;
     height: auto;
+    cursor: move;
+}
+
+#foldertype{
+    cursor: pointer;
 }
 
 
-/* Assignment One page */
+#music{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+#recordplayer{
+    width: 20em;
+}
+
+#dancing1{
+    position: absolute;
+    width: 15em;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 10%;
+}
+
+#dancing2{
+    position: absolute;
+    width: 10em;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 9%;
+    transform:rotate(180deg);
+}
+
+#dancing3{
+    position: absolute;
+    width: 6em;
+    transform: translate(-50%, -50%);
+    top: 76%;
+    left: 16%;
+    transform:rotate(90deg);
+}
+
+
+#wavehead{
+    position: absolute;
+    width: 10em;
+    transform: translate(-50%, -50%);
+    transform:rotate(-90deg);
+    top: 70%;
+    left: 88.5%;
+    overflow: hidden;
+}
+
+
+/* Assignment One Week One page */
 
 #containerA1{
-    height: 100vh;
+    height: 500vh;
     width: 100vw;
     margin: 0 auto;
     display: flex;
-    background-color: rgb(172, 172, 172);
-    border: 2px solid blue;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 255, 30);
+    color: rgb(0, 255, 30);
 }
 
 .left-inner{
     display: flex;
     width: 20%;
     height: 100%;
-    background-color: rgb(200, 200, 200);
-    border-right: 2px solid blue;
+    background-color: rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 255, 30);
     flex-direction: column;
+    align-items: center;
 }
+
+.headingA1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-style: italic;
+}
+
 
 .right-inner{
     display: flex;
     width: 80%;
     height: 100%;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
 }
 
 .titleA1{
-    display: flex;
+    position: relative;
     width: 100%;
-    height: 12%;
-    background-color: rgb(222, 222, 222);
-    border-bottom: 2px solid blue;
+    height: 2%;
+    background-color: black;
+    border-bottom: 2px solid  rgb(0, 255, 30);
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 255, 30);
+}
+
+
+#headingW1{
+    font-size: 2em;
+    font-style: oblique;
+    color: black;
+    background-color: rgb(0, 255, 30);
+    display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2em;
+}
+
+#firstws{
+    color: rgb(0, 255, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thecerns{
+    display: flex;
+    overflow: auto;
+    width: 100%;
+}
+#cern{
+    width: 10em;
+}
+.thecerns img{
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+}
+
+#tim{
+    display: flex;
+    justify-content: center;
+}
+
+#w1activities{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.blink {
+    display: flex;
+    animation: blinker 1.5s linear infinite;
+    justify-content: center;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink2 {
+    display: flex;
+    animation: blinker 2s linear infinite;
+    justify-content: center;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 
 
 
+.activitiesCaptions{
+    display: flex;
+    justify-content: center;
+}
+
+.weeksA1{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 13%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#weektabs{
+    color: rgb(0, 255, 30) ;
+    font-size: 1em;
+    background: black;
+    border: black;
+    cursor: pointer;
+}
+
+#hometab{
+    font-size: 1em;
+    background: rgb(0, 255, 30);
+    border: rgb(0, 255, 30);
+    cursor: pointer;
+}
+
+
+.helloworld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hwpage{
+    background-color: white;
+}
+
+
+#groupaW1{
+    width: 10%;
+}
+
+.practiseWebpage{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.WBJ{
+    background-color: white;
+    width: 30%;
+}
+
+.GHSC{
+    display: flex;
+    justify-content: center;
+}
+
+.MIbox{
+    display: flex;
+    width: 50vh;  
+    height: 50vh;
+    justify-content: right;
+    align-items:last baseline;  
+
+}
+
+
+.MATRIX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    height: 40vh;
+    background-image: url(MATRIX.gif);
+    box-shadow: 0 0 1em  rgb(0, 255, 30);
+    cursor: move;
+}
+
+#EMbutton{
+    background-color: black;
+    color:rgb(0, 255, 30);
+    cursor: pointer;
+}
+
+.HDbox{
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+    width:55vw;
+    height: 55vh;
+    cursor: move;
+}
+
+.harrydesigns1{
+    background-image: url(OrangeHD.gif);
+    width: 32vw;
+    height: 60vh;
+    color: white;
+    cursor: move;
+}
+
+#viewHD{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(253,109,22);
+    background-color: black;
+    border: solid rgb(253,109,22);
+    width: 100%;
+    cursor: pointer;
+}
+#viewHDbutton{
+    cursor: pointer;
+}
+
+#firstws{
+    cursor: pointer;
+}
+
+    /* matrix page */
+    .matrixPage{
+        display: flex;
+        background-image:url(codestream.gif) ;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .uploading{
+        background-image: url(uploaded.gif);
+        width: 25vw;
+        height: 20vh;
+        box-shadow: 0 0 1em  blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: move;
+    }
+
+
+    #uploading{
+        color: blue;
+        font-style: oblique;
+        font-size: 1.5em;
+        text-shadow: blue;
+    }
+
+
+    .escapeButton{
+        background: red;
+        color: white;
+        border: solid maroon;
+        cursor: pointer;
+    }
 
 
 
 
+/* Assignment Two Page */
+.errorMessage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
 
+.return{
+    background-color: blue;
+    margin: 0 auto;
+    color: white;
+    border: 1px solid white;
+}

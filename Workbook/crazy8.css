@@ -1,0 +1,47 @@
+/* Crazy 8 page */
+body{
+    background-color: red;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    cursor:crosshair;
+}
+
+#floatingtext{
+    font-size: 3.8em;
+    color: white
+}
+
+#retunbutton{
+    background-color: white;
+    color: red;
+    font-family: "ocr-a-std", monospace;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+#paperCrazy8s{
+    position: absolute;
+    top: 10%;
+    width: 50vw;
+    /* box-shadow: 0 0 4em purple; */
+}
+
+#explaination{
+    position: absolute;
+    top: 140%;
+    width: 50vw;
+    height: 80vh;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    overflow: scroll;
+}
