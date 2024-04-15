@@ -1,0 +1,129 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 1000vh;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#mov-a{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 52%;
+    left: 57%;
+    align-items: center;
+    font-family: 'Zapfino';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Zapfino'), url('Zapfino.woff') format('woff');
+    text-decoration: none;
+}
+
+#mov-b{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 25%;
+    align-items: center;
+    font-family: 'Zapfino';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Zapfino'), url('Zapfino.woff') format('woff');
+    text-decoration: none;
+}
+
+#mov-c{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 88%;
+    align-items: center;
+    font-family: 'Zapfino';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Zapfino'), url('Zapfino.woff') format('woff');
+    text-decoration: none;
+}
+
+#mov-d{
+    cursor: move;
+    position: absolute;
+}
+
+
+
+#frame{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 110%;
+}
+
+#return{
+  position: absolute;
+  width: 8%;
+  cursor: pointer;
+  top: 85%;
+}
+
+#inspo2{
+  border-width: .2em;
+  border-color: silver;
+  border: groove;
+  border-width: .2em;
+}
+
+a{
+  text-decoration: none; 
+}
+
+#site1{
+  color:silver;
+  cursor: pointer;
+}
+
+
+#site1:hover{
+  color:blue ;
+}
+
+
+#inspo1{
+  width: 25%;
+  border:groove;
+  border-width: .2em;
+  border-color: silver;
+}
+
+
+#instructions{
+  border-color: none;
+  border: none;
+  border-width: 0;
+  position: absolute;
+  width: 101vw;
+  height: 101vh;
+  color: blue;
+  font-family: 'Zapfino';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Zapfino'), url('Zapfino.woff') format('woff');
+  font-size: 2em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#return{
+  position: absolute;
+  width: 8em;
+  cursor: pointer;
+  top: 90%;
+}
+
+#Doodle{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 30%;
+  top: 20%;
+  cursor: pointer;
+}
+
+
+#DTD{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 42%;
+  top: 50%;
+  cursor: pointer;
+}
+
+
+#IL{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 38%;
+  top: 80%;
+  cursor: pointer;
+}
+
+#title{
+  position: absolute;
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('SF Pro'), url('SFPRo.woff') format('woff');
+  font-style: italic;
+  color: #C4F500;
+  font-size: 2em;
+  width: 100vw;
+
+}

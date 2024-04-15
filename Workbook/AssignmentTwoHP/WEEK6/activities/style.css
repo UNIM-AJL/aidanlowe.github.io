@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: HelveticaNeue;
+  src: url(helvetica-neue-5/HelveticaNeueRoman.otfx);
+  /* background-color: black; */
+}
+
+canvas {
+  display: block;
+}
+
+#auto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: blue;
+}
+
+button{
+  background-color: transparent;
+  border: none; 
+  font-size: 14em;
+  font-style: italic;
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+  cursor: pointer;
+}
+
+button:hover{
+  color: white;
+  -webkit-text-stroke-color:white;
+}
+
+a{
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+  text-decoration: none;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+  gap: -10px;
+  
+}
+
+#title{
+  font-size: 5em;
+  color: red;
+  -webkit-text-stroke-color:red;
+}
+
+#sound{
+  font-size: 5em;
+  cursor: pointer;
+}
+#pie{
+  font-size: 5em;
+  cursor: pointer;
+}
+
+#return{
+  font-size: 5em;
+  cursor: pointer;
+}
+
+#return:hover{
+  color: white;
+  -webkit-text-stroke-color: white;
+  cursor: pointer;
+}
+
+#sound:hover{
+  color: white;
+  -webkit-text-stroke-color: white;
+  cursor: pointer;
+}
+
+#pie:hover{
+  color: white;
+  -webkit-text-stroke-color: white;
+  cursor: pointer;
+}

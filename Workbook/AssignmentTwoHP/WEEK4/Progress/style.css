@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+
+#frame{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 51%;
+  left: 51%;
+  width: 68%;
+}
+
+#nav{
+  position: relative;
+  height: 50%;
+  width: 8%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#up{
+  width: 100%;
+  cursor: pointer;
+}
+
+#down{
+  width: 100%;
+  cursor: pointer;
+}
+
+  
+#return{
+  width: 8%;
+  position: absolute;
+  cursor: pointer;
+  top: 85%;
+}
+
+#ivc{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55%;
+}
+
+#title{
+  border-color: none;
+  border: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  color: blue;
+  font-family: 'Zapfino';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Zapfino'), url('Zapfino.woff') format('woff');
+  font-size: 2em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+#comments{
+  position: absolute;
+  width: 50vw;
+  transform: translate(-50%, -50%);
+  top: 90%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  /* font-family: 'Zapfino';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Zapfino'), url('Zapfino.woff') format('woff'); */
+  color: blue;
+  font-size: .8em;
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#return{
+  position: absolute;
+  width: 8em;
+  cursor: pointer;
+  top: 90%;
+}
+
+#mario{
+  position: absolute;
+  width: 20%;
+  left: 100px;
+  top: 120px;
+  box-shadow:10px 10px 100px 1px #C4F500;
+}
+
+#three-d{
+  position: absolute;
+  width: 20%;
+  left: 1150px;
+  top:300px;
+  box-shadow:10px 10px 100px 1px #C4F500;
+}
+
+#brave{
+  position: absolute;
+  width: 30%;
+  left: 300px;
+  top:450px;
+  box-shadow:10px 10px 100px 1px #C4F500;
+}
+
+#mobile{
+  position: absolute;
+  width: 20%;
+  left: 800px;
+  top:30px;
+  box-shadow:10px 10px 100px 1px #C4F500;
+}
+
+#info{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color:#C4F500;
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Pro'), url('SFPRo.woff') format('woff');
+  font-style: italic;
+}
+
+#insp{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 42%;
+  left: 50%;
+  color: #C4F500;
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Pro'), url('SFPRo.woff') format('woff');
+}

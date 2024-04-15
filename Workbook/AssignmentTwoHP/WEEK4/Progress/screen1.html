@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Progress</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <video src="Experimenting.mp4" id="ivc"autoplay loop></video>
+    <img src="ChromeIMGFrame.png" id="frame">
+    <marquee id="title"
+    direction="down"
+    behavior="alternate"
+    style="border:solid">
+   <marquee behavior="alternate">Progress</marquee>
+    </marquee>
+    <div id="nav">
+      <a href="index.html">
+        <img src="upIcon.png" id="up">
+      </a>
+      <a href="screen2.html">
+        <img src="DownIcon.png" id="down">
+      </a>
+    </div>
+
+    <a href="../index.html">
+      <img src="W4Return.png" id="return">
+    </a>
+    <p id="comments">Using the code I found before as a basis I began exploring how I could edit the code in order for it scale to the size of the page as well as playing around with the colour of the filter. One issue that I stumbled across during this process was that I found I was unable to get rid of the initial unfiltered webcam feed even after researching I wasn’t able to come across a clear fix.</p>
+    <script src="sketch.js"></script>
+  </body>
+</html>

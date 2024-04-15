@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+
+#shs{
+  width: 23vw;
+  box-shadow: 0px 0px 30px red;
+}
+
+#home{
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  left: 2%;
+  top: 2%;
+
+}
+
+#inspo{
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  left: 50%;
+  top: 2%;
+}
+
+#activities{
+  display: flex;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+
+
+#return{
+  position: absolute;
+  top: 90%;
+  left: 1%;
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+  font-size: 3em;
+  font-family: HelveticaNeue;
+  src: url(helvetica-neue-5/HelveticaNeueRoman.otfx);
+  cursor: pointer;
+}
+
+#return:hover{
+  color: white;
+  -webkit-text-stroke-color: white;
+}
+
+#para1{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: red;
+  font-family: HelveticaNeue;
+  src: url(helvetica-neue-5/HelveticaNeueRoman.otfx);
+  width: 41vw;
+  text-align: center;
+}
+
+#para2{
+  position: absolute;
+  top: 25%;
+  left: 52%;
+  color: red;
+  font-family: HelveticaNeue;
+  src: url(helvetica-neue-5/HelveticaNeueRoman.otfx);
+  width: 41vw;
+  text-align: center;
+}
+
+
+#para3{
+  position: absolute;
+  top: 69%;
+  left: 50%;
+  color: red;
+  font-family: HelveticaNeue;
+  src: url(helvetica-neue-5/HelveticaNeueRoman.otfx);
+  width: 45vw;
+  text-align: center;
+}

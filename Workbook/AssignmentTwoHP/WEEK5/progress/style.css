@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#return{
+  position: absolute;
+  width: 8em;
+  cursor: pointer;
+  top: 90%;
+}
+
+#home{
+  position: absolute;
+  width: 30%;
+  border: solid;
+  border-color: #C4F500;
+  transform: translate(-50%, -50%);
+  left: 17%;
+  top: 78%;
+}
+
+#activities{
+  position: absolute;
+  width: 30%;
+  border: solid;
+  border-color: #C4F500;
+  transform: translate(-50%, -50%);
+  left: 83%;
+  top: 78%;
+}
+
+#p5example{
+  position: absolute;
+  width: 30%;
+  border: solid;
+  border-color: #C4F500;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 20%;
+}
+
+#inspo{
+  position: absolute;
+  width: 30%;
+  border: solid;
+  border-color: #C4F500;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 78%;
+}
+
+#title{
+  position: absolute;
+  font-family: 'SF Pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('SF Pro'), url('SFPRo.woff') format('woff');
+  font-style: italic;
+  color: #C4F500;
+  font-size: 2em;
+  width: 100vw;
+  top: 50%;
+
+}
+
+#para1{
+  position: absolute;
+  font-family: 'SF Pro';
+  font-style: normal;
+  line-height: 1.4;
+  src: local('SF Pro'), url('SFPRo.woff') format('woff');
+  color: white;
+  width: 30vw;
+  left: 2%;
+  top: 1%;
+  text-align: center;
+}
+
+#para2{
+  position: absolute;
+  font-family: 'SF Pro';
+  font-style: normal;
+  src: local('SF Pro'), url('SFPRo.woff') format('woff');
+  color: white;
+  line-height: 1.4;
+  width: 30vw;
+  left:68%;
+  top: 1%;
+  text-align: center;
+}

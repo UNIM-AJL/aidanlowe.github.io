@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color:rgb(101, 101, 101);
+  font-family: HelveticaNeue;
+  src: url(helvetica-neue-5/HelveticaNeueRoman.otfx);
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+a{
+  text-decoration: none;
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+}
+
+#inspo{
+  position: absolute;
+  font-size: 3em;
+  transform: translate(-50%,-50%);
+  height: 40vh;
+  width: 80vw;
+  top: 15%;
+  left: 45%;
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+}
+
+
+
+#title{
+  color: red;
+  font-style: italic;
+  -webkit-text-stroke-color:red;
+  text-decoration: none;
+}
+
+#one:hover{
+  color: white;
+  -webkit-text-stroke-color:white;
+}
+
+#two:hover{
+  color: white;
+  -webkit-text-stroke-color:white;
+}
+
+#three:hover{
+  color: white;
+  -webkit-text-stroke-color:white;
+}
+
+#four:hover{
+  color: white;
+  -webkit-text-stroke-color:white;
+}
+
+#five:hover{
+  color: white;
+  -webkit-text-stroke-color:white;
+}
+
+#return:hover{
+  color: white;
+  -webkit-text-stroke-color:white;
+}

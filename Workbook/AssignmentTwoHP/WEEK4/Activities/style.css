@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#head{
+  position: absolute;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 30%;
+  cursor: pointer;
+}
+
+#dice{
+  position: absolute;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 70%;
+  cursor: pointer;
+}
+
+  
+#return{
+  width: 8%;
+  position: absolute;
+  cursor: pointer;
+  top: 85%;
+}
+
+#refresh{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 90%;
+  left: 50%;
+  font-family: 'Zapfino';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Zapfino'), url('Zapfino.woff') format('woff');
+    font-size: 2em;
+    color: blue;
+}

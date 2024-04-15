@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#return{
+  position: absolute;
+  width: 8em;
+  cursor: pointer;
+  top: 90%;
+}
+
+#inspo{
+  position: sticky; 
+  width: 15em;
+  height: 15em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 350px;
+  left: 310px;
+  cursor: pointer;
+}
+
+#progress{
+  position: sticky; 
+  width: 15em;
+  height: 15em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 370px;
+  left: 750px;
+  cursor: pointer;
+}
+
+#activities{
+  position: sticky; 
+  width: 15em;
+  height: 15em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 373px;
+  left: 1215px;
+  cursor: pointer;
+}
+
+#title{
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+  width: 50%;
+
+}

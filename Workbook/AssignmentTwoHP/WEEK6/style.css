@@ -1,0 +1,116 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color:rgb(101, 101, 101);
+  font-family: HelveticaNeue;
+  src: url(helvetica-neue-5/HelveticaNeueRoman.otfx);
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+
+#wrapper{
+  /* margin: 10px; */
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  font-size: 8em;
+  top: -20%;
+  left: 2%;
+  height: 10VH;
+}
+#wrapper2{
+  /* margin: 10px; */
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  font-size: 8em;
+  top: -2%;
+  left: 2%;
+  height: 10VH;
+}
+#wrapper3{
+  /* margin: 10px; */
+  padding: 10px;
+  display: flex;
+  position: fixed;
+  font-size: 8em;
+  top: 16%;
+  left: 2%;
+  height: 10VH;
+}
+
+#title{
+  color: red;
+  font-style: italic;
+}
+
+#stop{
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:red;
+}
+
+#inspo{
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+  text-decoration: underline;
+}
+
+#inspo:hover{
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: white;
+  text-decoration-color: white;
+  text-decoration: underline;
+}
+
+#progress{
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+  text-decoration: underline;
+}
+
+#progress:hover{
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: white;
+  text-decoration-color: white;
+  text-decoration: underline;
+}
+
+#activities{
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+  text-decoration: underline;
+}
+
+#activities:hover{
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: white;
+  text-decoration-color: white;
+  text-decoration: underline;
+}
+
+#return{
+  color: black;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color:rgb(101, 101, 101);
+  text-decoration: underline;
+}
+
+
+#return:hover{
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: white;
+  text-decoration-color: white;
+  text-decoration: underline;
+}
