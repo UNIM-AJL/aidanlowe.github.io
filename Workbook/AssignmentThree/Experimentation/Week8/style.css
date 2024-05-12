@@ -145,10 +145,12 @@ a{
 
 
 
-#IWtitle{
-    text-align: end;
-      cursor: pointer;
-}
+    #IWtitle{
+        text-align: end; 
+        cursor: pointer;
+        color: black;
+    }
+        
 
 #IWoverlay{
     position: absolute;
@@ -184,4 +186,21 @@ a{
 .watchingeyesIMG{
     width: 50vw;
 }
+
+
+.returnHome{    
+    padding: 1em;
+ }
+ 
+ #Home{
+     color: black;
+     font-size: 2vw;
+ }
+ 
+ #Home:hover{
+     color: black;
+     font-size: 2vw;
+     color: rgb(0,255,0);
+ }
+ 
 

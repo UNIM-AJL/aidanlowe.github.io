@@ -148,6 +148,7 @@ a{
 #IWtitle{
     text-align: end;
       cursor: pointer;
+      color: black;
 }
 
 #IWoverlay{
@@ -171,97 +172,281 @@ a{
     color: rgb(235,249,3);
 }
 
-.room6x8{
-    position: absolute;
-    width: 40vw;
-    left: 5vw;
-    top: 50vh;
+
+ .inspoScroll{
+    display: flex;
+    overflow-x: scroll;
+    background-color: #A39D96;
+    padding: 1em 1em 0 1em;
+ }
+
+
+ .inspoImg{
+    width: 15vw;
+    height: 80vh;
+ }
+
+ .inspoImg:hover{
+    width: auto;
+    height: 80vh;
+ }
+
+
+/* List  */
+.wrapper{
+    display: flex;
 }
 
 
-.room6x8:hover + .hide{
-    display: block;
+
+.components-title{
+    font-size: 3vw;
+}
+
+.inspo-info{
+   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em;
 }
 
 
+
+.inspo-list{
+    position: relative;
+    top: 5vh;
+}
+
+.inspo1{
+    display: flex;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    color: black;
+    justify-content: space-between;
+
+}
 
 .hide{
+    background-color:rgba(255,29,170, 0.5);
     display: none;
-    position: absolute;
-    background-color:rgba(255,29,170, 0.75);
-    width: 30vw;
-    top: 75vh;
-    left: 30vw;
-   
+    text-align: center;
 }
 
-p{
-    margin-bottom: 1vh;
+.inspo1:hover + .hide{
+    display: block;
+
 }
 
-#room6x8TIT{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.Machete{
-    position: absolute;
-    width: 30vw;
-    left: 60vw;
-    top: 90vh;
+.inspo1:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
 }
 
 
 
 
-.Machete:hover + .hide2{
+
+.inspo2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+}
+
+
+.inspo2:hover + .hide{
+    display: block;
+
+}
+
+.inspo2:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.inspo3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+}
+
+
+
+.inspo3:hover + .hide{
     display: block;
 }
 
+.inspo3:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
 
-.hide2{
-    display: none;
-    position: absolute;
-    background-color: rgba(0,255,0,0.5);
-    width: 25vw;
-    top: 115vh;
-    left: 50vw;
+
+.inspo4{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+}
+
+
+
+.inspo4:hover + .hide{
+    display: block;
+}
+
+.inspo4:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.inspo5{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+}
+
+
+
+.inspo5:hover + .hide{
+    display: block;
+}
+
+.inspo5:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.inspo6{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+}
+
+
+
+.inspo6:hover + .hide{
+    display: block;
+}
+
+.inspo6:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.inspo7{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+}
+
+
+
+.inspo7:hover + .hide{
+    display: block;
+}
+
+.inspo7:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+
+.inspo8{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+}
+
+.inspo8:hover + .hide{
+    display: block;
+}
+
+.inspo8:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+
+.inspo9{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+}
+
+.inspo9:hover + .hide{
+    display: block;
+}
+
+.inspo9:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.link{
+    width: 2%;
+    cursor: pointer;
     text-align: end;
 }
 
-
-#MacheteTIT{
-    cursor: pointer;
-    text-decoration: underline;
+.inspo-name{
+    color: black;
 }
 
 
-.PVW{
-    position: absolute;
-    width: 30vw;
-    top: 120vh;
-    left: 10vw;
+.inspo-name:hover{
+    color:rgb(1,255,255);
 }
 
 
-.PVW:hover + .hide3{
-    display: block;
-}
 
-
-.hide3{
-    display: none;
-    position: absolute;
-    background-color:rgba(1,255,255,0.75);
-    width: 30vw;
-    top: 150vh;
-    left: 25vw;
-}
-
-
-#PVWTIT{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-
+.returnHome{    
+    padding: 1em;
+ }
+ 
+ #Home{
+     color: black;
+     font-size: 2vw;
+ }
+ 
+ #Home:hover{
+     color: black;
+     font-size: 2vw;
+     color: rgb(0,255,0);
+ }
+ 

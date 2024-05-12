@@ -145,10 +145,12 @@ a{
 
 
 
-#IWtitle{
-    text-align: end;
-      cursor: pointer;
-}
+    #IWtitle{
+        text-align: end; 
+        cursor: pointer;
+        color: black;
+    }
+        
 
 #IWoverlay{
     position: absolute;
@@ -171,6 +173,9 @@ a{
     color: rgb(1,255,255);
 }
 
+.container{
+    width: 60vw;
+}
 
 
 .blinker{
@@ -477,4 +482,20 @@ a{
     top: 70vh;
     left: 40vw;
     display: none;
+}
+
+
+.returnHome{    
+   padding: 1em;
+}
+
+#Home{
+    color: black;
+    font-size: 2vw;
+}
+
+#Home:hover{
+    color: black;
+    font-size: 2vw;
+    color: rgb(0,255,0);
 }

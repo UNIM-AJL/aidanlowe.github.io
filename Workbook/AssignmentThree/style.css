@@ -144,11 +144,12 @@ a{
     }
 
 
-
-#IWtitle{
-    text-align: end;
-      cursor: pointer;
-}
+    #IWtitle{
+        text-align: end; 
+        cursor: pointer;
+        color: black;
+    }
+       
 
 #IWoverlay{
     position: absolute;
@@ -180,7 +181,7 @@ a{
     background-color: rgba(0,255,0,0.5);
     transform: translate(-50%,-50%);
     left: 15vw;
-    top: 30vh;
+    top: 35vh;
     width: 20vw;
 }
 
@@ -299,4 +300,23 @@ a{
     50% {
         opacity: 0;
     }
+}
+
+
+.returnHome{    
+    position: absolute;
+    top: 117vh;
+    left: 2vw;
+ 
+}
+
+#Home{
+    color: black;
+    font-size: 2vw;
+}
+
+#Home:hover{
+    color: black;
+    font-size: 2vw;
+    color: rgb(0,255,0);
 }
