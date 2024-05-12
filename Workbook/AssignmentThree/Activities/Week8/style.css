@@ -1,0 +1,591 @@
+*{
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: #A39D96; */
+}
+
+body{
+    background-color: #A39D96;
+    cursor: crosshair;
+    overflow-x: hidden;
+}
+
+
+nav{
+    display: flex;
+    background:none;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vw;
+    background-color: #A39D96;
+    width: 100vw;
+    position: relative; 
+    z-index: 1; 
+}
+
+#Title{
+    font-size: 10vw;
+    padding: 0 2vw;
+    margin: 0;
+    color: black;
+}
+
+ol, ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  nav > ul{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between;
+  }
+
+  nav li{
+    padding: 1em;
+    transform: translateX(-1em);
+    background:none;
+  }
+
+  nav ul ul{
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top:100%;
+    transition: 0.3s;
+}
+    
+nav li:hover ul{
+    transform: scale(1,1);
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#PWtitle{
+    /* position: absolute; */
+    text-align: end;
+    cursor: pointer;
+}
+
+#PWoverlay{
+    position: absolute;
+    background-color:rgba(1,255,255,0.5);
+    width: 15vw;
+    height: 3vh;
+    top:50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+#AWtitle{
+    text-align: end;
+    cursor: pointer;
+}
+
+#AWoverlay{
+    position: absolute;
+    background-color:rgba(255,29,170, 0.5);
+    width: 26vw;
+    height: 3vh;
+    top:50%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+
+.PW{
+    background-color:rgba(1,255,255,0.5);
+    color:rgb(55, 70, 70);
+    width: 15vw;
+    text-align: end;
+    padding: 0  0 1em 0;
+    cursor: pointer;
+}
+
+.PW:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.AW{
+    background-color:rgba(255,29,170, 0.5);
+    color:rgb(85, 60, 75);
+    width: 26vw;
+    text-align: end;
+    padding: 0  0 1em 0;
+    cursor: pointer;
+}
+
+.AW:hover{
+    color: white;
+    cursor: pointer;
+    }
+
+
+.IW{
+    background-color:rgba(235,249,3, 0.5);
+    color:rgb(89, 90, 63);
+    width: 17vw;
+    text-align: end;
+    padding: 0  0 1em 0;
+    cursor: pointer;
+}
+
+.IW:hover{
+    color: white;
+    cursor: pointer;
+    }
+
+
+
+#IWtitle{
+    text-align: end;
+      cursor: pointer;
+}
+
+#IWoverlay{
+    position: absolute;
+    background-color:rgba(235,249,3, 0.5);
+    width: 17vw;
+    height: 3vh;
+    top:50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.sub-heading{
+    font-size: 7vw;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+.sub-heading:hover{
+    color: rgb(1,255,255);
+}
+
+/* page content */
+
+
+.components-title{
+    font-size: 3vw;
+}
+
+
+.FG{
+    display: flex;
+}
+
+
+#FGIMG{
+    position: relative;
+    left: 65vw;
+    width: 33vw;
+}
+
+
+.activity-info{
+    position: relative;
+    left: -30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#FGTIT{
+    font-size: 7vw;
+    letter-spacing: -.05em;
+}
+
+
+.components-item1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.arduinoUNO{
+    position: absolute;
+    width: 20vw;
+    left: 35vw;
+    top: -2vh;
+    display: none;
+}
+
+.components-item1:hover + .arduinoUNO{
+    display: block;
+
+}
+
+.components-item1:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+.components-item2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.breadboard{
+    position: absolute;
+    width: 20vw;
+    left: 35vw;
+    top: 12vh;
+    display: none;
+}
+
+.components-item2:hover + .breadboard{
+    display: block;
+
+}
+
+.components-item2:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.components-item3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.servoMotor{
+    position: absolute;
+    width: 12vw;
+    left: 40vw;
+    top: 28vh;
+    display: none;
+}
+
+.components-item3:hover + .servoMotor{
+    display: block;
+}
+
+.components-item3:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.components-item4{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+
+.wire{
+    position: absolute;
+    width: 20vw;
+    left: 38vw;
+    top: 44vh;
+    display: none;
+}
+
+.components-item4:hover + .wire{
+    display: block;
+}
+
+.components-item4:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.components-item5{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.resistor{
+    position: absolute;
+    width: 10vw;
+    left: 40vw;
+    top: 52vh;
+    rotate: 90deg;
+    display: none;
+}
+
+.components-item5:hover + .resistor{
+    display: block;
+}
+
+.components-item5:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.components-list{
+    position: relative;
+    top: 5vh;
+}
+
+
+.components-item2-1:hover + .arduinoUNO{
+    display: block;
+
+}
+
+.components-item2-1:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+.components-item6{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.Photoresistor{
+    position: absolute;
+    width: 10vw;
+    top: 70vh;
+    left: 40vw;
+    display: none;
+}
+
+.components-item6:hover + .Photoresistor{
+    display: block;
+
+}
+
+.components-item6:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+#LEDAdjusterIMG{
+    position: relative;
+    left: 2vw;
+    width: 33vw;
+}
+
+#LEDadjusterTIT{
+    font-size: 8.5vw;
+    letter-spacing: -.05em;
+}
+
+.LEDAdjuster{
+    display: flex;
+}
+
+.components-list2{
+    position: relative;
+    top: 5vh;
+}
+
+.activity-info2{
+    position: relative;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.components-item2-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.arduinoUNO{
+    position: absolute;
+    width: 20vw;
+    left: 35vw;
+    top: -2vh;
+    display: none;
+}
+
+.components-item2-1:hover + .arduinoUNO{
+    display: block;
+
+}
+
+.components-item2-1:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+.components-item2-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.breadboard{
+    position: absolute;
+    width: 20vw;
+    left: 35vw;
+    top: 12vh;
+    display: none;
+}
+
+.components-item2-2:hover + .breadboard{
+    display: block;
+
+}
+
+.components-item2-2:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.components-item2-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.LED{
+    position: absolute;
+    width: 12vw;
+    left: 40vw;
+    top: 28vh;
+    display: none;
+}
+
+.components-item2-3:hover + .LED{
+    display: block;
+}
+
+.components-item2-3:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.components-item2-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+
+.wire{
+    position: absolute;
+    width: 20vw;
+    left: 38vw;
+    top: 44vh;
+    display: none;
+}
+
+.components-item2-4:hover + .wire{
+    display: block;
+}
+
+.components-item2-4:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.components-item2-5{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+.resistor{
+    position: absolute;
+    width: 10vw;
+    left: 40vw;
+    top: 52vh;
+    rotate: 90deg;
+    display: none;
+}
+
+.components-item2-5:hover + .resistor{
+    display: block;
+}
+
+.components-item2-5:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+
+
+.components-item2-7{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em  0;
+    border-bottom-style: solid;
+    font-size: 2vw;
+    width: 60vw;
+}
+
+
+.components-item2-7:hover + .potentiometer{
+    display: block;
+
+}
+
+.components-item2-7:hover{
+    background-color:rgba(235,249,3, 0.5);
+    transition: 1s;
+}
+
+
+.potentiometer{
+    position: absolute;
+    width: 10vw;
+    top: 70vh;
+    left: 40vw;
+    display: none;
+}

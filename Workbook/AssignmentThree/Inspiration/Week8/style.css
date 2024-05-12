@@ -1,0 +1,267 @@
+*{
+    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: #A39D96; */
+}
+
+body{
+    background-color: #A39D96;
+    cursor: crosshair;
+    overflow-x: hidden;
+}
+
+
+nav{
+    display: flex;
+    background:none;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vw;
+    background-color: #A39D96;
+    width: 100vw;
+    position: relative; 
+    z-index: 1; 
+}
+
+#Title{
+    font-size: 10vw;
+    padding: 0 2vw;
+    margin: 0;
+    color: black;
+}
+
+ol, ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  nav > ul{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between;
+  }
+
+  nav li{
+    padding: 1em;
+    transform: translateX(-1em);
+    background:none;
+  }
+
+  nav ul ul{
+    transform: scale(1,0);
+    transform-origin: top center;
+    position: absolute;
+    top:100%;
+    transition: 0.3s;
+}
+    
+nav li:hover ul{
+    transform: scale(1,1);
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#PWtitle{
+    /* position: absolute; */
+    text-align: end;
+    cursor: pointer;
+}
+
+#PWoverlay{
+    position: absolute;
+    background-color:rgba(1,255,255,0.5);
+    width: 15vw;
+    height: 3vh;
+    top:50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+#AWtitle{
+    text-align: end;
+    cursor: pointer;
+}
+
+#AWoverlay{
+    position: absolute;
+    background-color:rgba(255,29,170, 0.5);
+    width: 26vw;
+    height: 3vh;
+    top:50%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+
+.PW{
+    background-color:rgba(1,255,255,0.5);
+    color:rgb(55, 70, 70);
+    width: 15vw;
+    text-align: end;
+    padding: 0  0 1em 0;
+    cursor: pointer;
+}
+
+.PW:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.AW{
+    background-color:rgba(255,29,170, 0.5);
+    color:rgb(85, 60, 75);
+    width: 26vw;
+    text-align: end;
+    padding: 0  0 1em 0;
+    cursor: pointer;
+}
+
+.AW:hover{
+    color: white;
+    cursor: pointer;
+    }
+
+
+.IW{
+    background-color:rgba(235,249,3, 0.5);
+    color:rgb(89, 90, 63);
+    width: 17vw;
+    text-align: end;
+    padding: 0  0 1em 0;
+    cursor: pointer;
+}
+
+.IW:hover{
+    color: white;
+    cursor: pointer;
+    }
+
+
+
+#IWtitle{
+    text-align: end;
+      cursor: pointer;
+}
+
+#IWoverlay{
+    position: absolute;
+    background-color:rgba(235,249,3, 0.5);
+    width: 17vw;
+    height: 3vh;
+    top:50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.sub-heading{
+    font-size: 7vw;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+.sub-heading:hover{
+    color: rgb(235,249,3);
+}
+
+
+
+
+
+.CEK{
+    position: absolute;
+    width: 40vw;
+    left: 55vw;
+    top: 50vh;
+}
+
+
+.CEK:hover + .hide{
+    display: block;
+}
+
+
+
+.hide{
+    display: none;
+    position: absolute;
+    background-color:rgba(235,249,3, 0.75);
+    width: 10vw;
+    top: 80vh;
+    left: 70vw;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 1vh;
+}
+
+#CEKTIT{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.JolliCube{
+    position: absolute;
+    width: 35vw;
+    left: 5vw;
+    top: 70vh;
+}
+
+.hide2{
+    display: none;
+    background-color:rgba(255,29,170, 0.75);
+    position: absolute;
+    width: 30vw;
+    top: 100vh;
+    left: 25vw;
+}
+
+#JolliCubeTIT{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.JolliCube:hover + .hide2{
+    display: block;
+}
+
+p{
+    margin-bottom: 2vh;
+}
+
+
+.Impolitus{
+    position: absolute;
+    width: 35vw;
+    left: 50vw;
+    top: 115vh;
+}
+
+.Impolitus:hover + .hide5{
+    display: block;
+}
+
+
+.hide5{
+    background-color:rgba(1,255,255,0.75);
+    position: absolute;
+    width: 30vw;
+    top: 135vh;
+    left: 35vw;
+    text-align: end;
+    display: none;
+}
+
+#ImpolitusTIT{
+    text-decoration: underline;
+    cursor: pointer;
+}
